@@ -23,6 +23,6 @@ jobs:
       - uses: tecolicom/actions-use-apt-tools@v1
         with:
           tools: zsh libnss3-tools httpie ripgrep
-      - uses: iloveitaly/github-action-localias@master
       - uses: mxschmitt/action-tmate@v3
+      - uses: iloveitaly/github-action-localias@master
       # export PS1='> '
