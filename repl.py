@@ -6,3 +6,7 @@
 #     "ipython",
 # ]
 # ///
+
+from IPython import embed
+
+embed()
