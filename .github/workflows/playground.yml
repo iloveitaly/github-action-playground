@@ -1,0 +1,28 @@
+name: GHA Playground
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+  pull_request: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # for the gh-cli
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  # NOTE there is no global timeout minutes, so we need to set it on each job :/
+
+  playground:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - uses: tecolicom/actions-use-apt-tools@v1
+        with:
+          tools: zsh libnss3-tools rg httpie
+      - uses: mxschmitt/action-tmate@v3
