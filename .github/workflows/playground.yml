@@ -22,5 +22,5 @@ jobs:
       - uses: jdx/mise-action@v2
       - uses: tecolicom/actions-use-apt-tools@v1
         with:
-          tools: zsh libnss3-tools rg httpie
+          tools: zsh libnss3-tools
       - uses: mxschmitt/action-tmate@v3
