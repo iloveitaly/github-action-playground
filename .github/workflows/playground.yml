@@ -15,8 +15,6 @@ env:
   GH_TOKEN: ${{ github.token }}
 
 jobs:
-  # NOTE there is no global timeout minutes, so we need to set it on each job :/
-
   playground:
     runs-on: ubuntu-latest
     steps:
