@@ -1,0 +1,15 @@
+{
+  "description": "Shadcn playground on StackBlitz. Works well when paired with Bolt.new",
+  "homepage": "https://github.com/iloveitaly/shadcn-react-playground",
+  "keywords": [
+    "shadcn",
+    "shadcn-ui",
+    "react",
+    "react-router",
+    "tailwindcss",
+    "stackblitz",
+    "bolt",
+    "agent",
+    "llm"
+  ]
+}
