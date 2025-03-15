@@ -1,15 +1,14 @@
 {
-  "description": "Shadcn playground on StackBlitz. Works well when paired with Bolt.new",
-  "homepage": "https://github.com/iloveitaly/shadcn-react-playground",
+  "description": "GitHub Actions playground repository for testing and experimenting with workflows and actions",
+  "homepage": "https://github.com/iloveitaly/github-action-playground",
   "keywords": [
-    "shadcn",
-    "shadcn-ui",
-    "react",
-    "react-router",
-    "tailwindcss",
-    "stackblitz",
-    "bolt",
-    "agent",
-    "llm"
+    "github",
+    "github-actions",
+    "workflows",
+    "ci-cd",
+    "automation",
+    "devops",
+    "playground",
+    "testing"
   ]
 }
