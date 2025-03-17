@@ -25,4 +25,3 @@ jobs:
           tools: zsh libnss3-tools httpie ripgrep
       - uses: mxschmitt/action-tmate@v3
       - uses: iloveitaly/github-action-localias@master
-      # export PS1='> '
