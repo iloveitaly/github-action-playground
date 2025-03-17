@@ -15,3 +15,6 @@ A bunch of runtimes are installed so it's easy to run different scripts and play
 ## Tips
 
 * `sudo -s` to run all commands as sudo
+* Package tips:
+  * `sudo apt-get update`
+  * `sudo apt-cache search poppler`
